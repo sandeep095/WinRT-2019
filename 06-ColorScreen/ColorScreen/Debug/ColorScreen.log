@@ -1,0 +1,25 @@
+﻿Build started 8/4/2019 12:41:34 PM.
+     1>Project "C:\Users\admin\documents\visual studio 2010\Projects\ColorScreen\ColorScreen\ColorScreen.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ColorScreen.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ColorScreen.cpp
+         ColorScreen.cpp
+     1>c:\users\admin\documents\visual studio 2010\projects\colorscreen\colorscreen\colorscreen.cpp(73): warning C4101: 'mhdc' : unreferenced local variable
+     1>c:\users\admin\documents\visual studio 2010\projects\colorscreen\colorscreen\colorscreen.cpp(77): warning C4101: 'sMsgBox' : unreferenced local variable
+     1>c:\users\admin\documents\visual studio 2010\projects\colorscreen\colorscreen\colorscreen.cpp(83): warning C4101: 'bitmap' : unreferenced local variable
+     1>c:\users\admin\documents\visual studio 2010\projects\colorscreen\colorscreen\colorscreen.cpp(82): warning C4101: 'hInstance' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\documents\visual studio 2010\Projects\ColorScreen\Debug\ColorScreen.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ColorScreen.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\admin\documents\visual studio 2010\Projects\ColorScreen\Debug\ColorScreen.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\documents\visual studio 2010\Projects\ColorScreen\Debug\ColorScreen.lib" /MACHINE:X86 Debug\ColorScreen.obj
+     1>ColorScreen.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         ColorScreen.vcxproj -> C:\Users\admin\documents\visual studio 2010\Projects\ColorScreen\Debug\ColorScreen.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\admin\documents\visual studio 2010\Projects\ColorScreen\Debug\ColorScreen.exe;#1" /manifest Debug\ColorScreen.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ColorScreen.unsuccessfulbuild".
+         Touching "Debug\ColorScreen.lastbuildstate".
+     1>Done Building Project "C:\Users\admin\documents\visual studio 2010\Projects\ColorScreen\ColorScreen\ColorScreen.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.79
